@@ -20,7 +20,7 @@ jobs:
       with:
         hugo-version: '0.112.0' # Specify the Hugo version
 
-    # Step 3: Build the site
+    # Step 3: Build the site using Hugo
     - name: Build the Hugo site
       run: hugo --minify --destination docs
 
