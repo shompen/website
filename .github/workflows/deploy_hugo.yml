@@ -24,7 +24,7 @@ jobs:
     - name: Build the Hugo site
       run: hugo --minify 
 
-    # Step 4: Deploy to GitHub Pages
+    # Step 4: Deploy to Gi tHub Pages
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
       with:
